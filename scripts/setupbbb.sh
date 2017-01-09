@@ -8,3 +8,4 @@ cat ~/.ssh/id_rsa.pub | ssh $evm "mkdir -p ~/.ssh && cat >> ~/.ssh/authorized_ke
 
 # copy over files
 ./copyenvironmentfiles.sh
+

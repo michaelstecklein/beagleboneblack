@@ -110,6 +110,14 @@ inline int detectMotion(const Mat & motion, Mat & result, Mat & result_cropped,
     return 0;
 }
 
+
+
+
+
+
+
+
+
 int main (int argc, char * const argv[])
 {
     const string DIR = "/home/pi/motion_src/pics/"; // directory where the images will be stored

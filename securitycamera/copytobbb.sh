@@ -1,4 +1,7 @@
 # !/bin/bash
 evm="root@192.168.7.2"
 
-scp -r * $evm:securitycamera
+cd ~/Projects/beagleboneblack/securitycamera/
+shopt -s extglob
+scp -r !(copytobbb.sh) $evm:
+#scp -r * $evm:
